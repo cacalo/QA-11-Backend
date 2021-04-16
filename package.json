@@ -1,0 +1,31 @@
+{
+  "name": "qa-11-backend",
+  "version": "1.0.0",
+  "description": "Backend for my QA:9-10 project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cacalo/QA-11-Backend.git"
+  },
+  "keywords": [
+    "login",
+    "student",
+    "basic"
+  ],
+  "author": "Gonzalo Bechara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cacalo/QA-11-Backend/issues"
+  },
+  "homepage": "https://github.com/cacalo/QA-11-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
