@@ -1,0 +1,3 @@
+# QA11: Basic registration and login excercise - by Gonzalo Bechara
+This exercise is comprised by an index.js file which has the code to create a server and handle the requests of the forms made on the excercise QA09 and QA10.
+The objective was to create a basic web server to  handle registration and login functions to an old project. In order to make the application work the programmer needs to understand the basics of node.js , NPM and Express.
