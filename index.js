@@ -31,9 +31,8 @@ function handleRegister (data) {
 
 function handleLogin (data) {
   console.log("Trying to login the user " + data.email);
-  const selectedUser =  users.filter(a => a.email === data.email);
-  console.log(selectedUser);
-  console.log(selectedUser.password, data.password)
+  const selectedUser =  users.filter(a => a.email === data.email)[0];
+  console.log(selectedUser.password, data.password);
   if(selectedUser.password == data.password && selectedUser != undefined){
     console.log("Login successful");
   }
